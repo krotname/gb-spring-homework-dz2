@@ -10,6 +10,7 @@ public class SpringContextConfiguration {
         return new Cart();
     }
 
+
     @Bean
     public ProductRepository productRepository() {
         return new ProductRepository();
